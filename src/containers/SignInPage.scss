@@ -1,0 +1,17 @@
+@import '../themes/variables';
+
+.signInPage{
+    height: 100vh;
+    padding-top: 8px;
+    background-image: url("/assets/images/signin-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .copyright{
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        opacity: 0.3;
+        color: #ffffff;
+    }
+}
